@@ -1,8 +1,13 @@
+import Header from "./components/header";
+import Pokedex from "./components/content/pokedex";
+
 function App() {
   return (
-    <div className="App">
-        <h1>inicio Pokedex</h1> 
-    </div>
+    <div>
+    <Header/>
+    <Pokedex/>
+  </div>
+
   );
 }
 
