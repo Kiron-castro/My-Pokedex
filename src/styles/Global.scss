@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ font-family: Outfit; 
+}
+@import
+url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+:root{
+  --blue: #3466AF;
+  --yellow: #FFCB05;
+  --red: #ED3237;
+  --grey: #A19E9E;
+
+}
+body{
+  background-color: var(--grey);
+}
